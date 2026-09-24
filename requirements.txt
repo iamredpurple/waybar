@@ -1,0 +1,9 @@
+zscroll
+fastfetch
+playerctl
+mpv-mpris
+mpd-mpris
+impala
+bluetui
+wiremix
+walker-bin
