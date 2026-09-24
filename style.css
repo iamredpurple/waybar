@@ -1,4 +1,8 @@
-@import "./colors.css";
+/* Colors can be defined here */
+@define-color foreground #c2c2b0;
+@define-color background #222222;
+@define-color blue #78824b;
+
 * {
   font-family: CaskaydiaMono Nerd Font;
   /* font-size: 12px; */
@@ -34,8 +38,6 @@ window#waybar {
   margin: 0px 2px;
   background-color: transparent;
   border: none;
-  /* animation: gradient_f 20s ease-in infinite; */
-  /* transition: all 0.15s cubic-bezier(.55, -0.68, .48, 1.682); */
 }
 
 #workspaces button.empty {
@@ -43,7 +45,6 @@ window#waybar {
   color: @foreground;
   opacity: 0.45;
   border: none;
-  /* transition: all 0.15s ease-in-out; */
   padding: 0px 8px;
   margin: 0px 2px;
 }
@@ -66,7 +67,6 @@ window#waybar {
   opacity: 1;
 }
 
-/* #submap, */
 #bluetooth,
 #network,
 #cpu,
@@ -74,8 +74,6 @@ window#waybar {
 #memory,
 #battery,
 #pulseaudio {
-  /* border-radius: 8px; */
-  /* padding: 5px 8px; */
   font-size: 12px;
   background: transparent;
   margin-right: 12px;
