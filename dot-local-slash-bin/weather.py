@@ -38,7 +38,7 @@ WEATHER_CODES_NIGHT = {
 
 try:
 
-    command = ["curl", "wttr.in/London?format=j1"]
+    command = ["curl", "wttr.in/?format=j1"] #if you want specific city you can "wttr.in/London?format=j1"
     response = subprocess.run(command, capture_output=True, text=True)
     data = json.loads(response.stdout)
     
