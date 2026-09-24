@@ -14,10 +14,10 @@
 ### Step 1
 - Check inside requirements.txt and remove the packages you dont need or have alternates to, install the rest, maybe something like: `yay -S --needed $(cat ~/waybar/requirements.txt | xargs)`
 
-### Step 2
+### Step 2*
 - copy scripts from ./dot-local-slash-bin and copy inside ~/.local/bin/, create if does not exist.
 ```mkdir -p ~/.local/bin && cp -r ~/waybar/dot-local-slash-bin/. ~/.local/bin/ ```
-- make sure they are executable: ` chmod +x ~/.local/bin/** `
+- make sure they are executable: ` chmod +x ~/.local/bin/* `
 - check inside ~/.bashrc for this line: `export PATH="$HOME/.local/bin:$PATH" `
 - add if doesnt exist, then in terminal, run: `source ~/.bashrc`
 
@@ -35,7 +35,7 @@ cp ~/waybar/config.jsonc ~/.config/waybar/
 cp ~/wayabr/style.css ~/.config/waybar/
 ```
 
-- make custom_modules executable: `chmod +x ~/.config/waybar/custom_modules/** `
+- make custom_modules executable: `chmod +x ~/.config/waybar/custom_modules/media/* `
 
 ### Step 4
 - reload the waybar: `killall -SIGUSR2 waybar`
