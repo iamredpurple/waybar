@@ -1,7 +1,7 @@
 /* Colors can be defined here */
 @define-color foreground #c2c2b0;
 @define-color background #222222;
-@define-color blue #78824b;
+@define-color accent #78824b;
 
 * {
   font-family: CaskaydiaMono Nerd Font;
@@ -33,7 +33,7 @@ window#waybar {
 }
 
 #workspaces button.active {
-  color: @blue;
+  color: @accent;
   padding: 0 8px;
   margin: 0px 2px;
   background-color: transparent;
@@ -52,7 +52,7 @@ window#waybar {
 #workspaces button.empty.active {
   background-color: transparent;
   border: none;
-  color: @blue;
+  color: @accent;
   opacity: 1;
   padding: 0px 8px;
   margin: 0px 2px;
@@ -95,7 +95,7 @@ window#waybar {
 }
 
 #custom-arch {
-  color: @blue;
+  color: @accent;
 }
 
 #workspaces button.urgent {
@@ -110,7 +110,7 @@ window#waybar {
 }
 
 #media {
-  color: @blue;
+  color: @accent;
   margin: 0px 0px 0px 10px;
 }
 

@@ -1,3 +1,4 @@
+ttf-cascadia-mono-nerd
 zscroll
 fastfetch
 playerctl
@@ -7,3 +8,4 @@ impala
 bluetui
 wiremix
 walker-bin
+kitty
