@@ -1,7 +1,7 @@
 # Waybar
 
 ## This is what the waybar looks like:
-![[ ./waybar.png ]]
+!["Some waybar"](./waybar.png)
 
 ## Steps:
 
@@ -36,9 +36,6 @@ cp ~/wayabr/style.css ~/.config/waybar/
 ```
 
 - make custom_modules executable: `chmod +x ~/.config/waybar/custom_modules/** `
-
-```
-```
 
 ### Step 4
 - reload the waybar: `killall -SIGUSR2 waybar`
