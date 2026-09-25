@@ -1,4 +1,5 @@
 ttf-cascadia-mono-nerd
+power-profiles-daemon
 zscroll
 fastfetch
 playerctl
